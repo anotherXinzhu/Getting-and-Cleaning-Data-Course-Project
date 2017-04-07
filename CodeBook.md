@@ -13,7 +13,7 @@
 #### subject
     Subjects who participate in the Samsung experiment
         
-        1...30  : overall 30 volunteers, each assigned an subject ID
+        1...30  : overall 30 volunteers, each assigned a subject ID
     
 #### tBodyAcc_mean_X
     The mean value of body accelaration in the X direction from the time domain
