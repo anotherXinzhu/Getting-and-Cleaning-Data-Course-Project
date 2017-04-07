@@ -195,6 +195,10 @@ _Finally, we save the Results data set into a separate .txt file._
 write.table(Results,file = "Final_Tidy_Results.txt",row.names = FALSE)
 ```
 _To download and review the results data, please use the following code:_
-
-
+```r
+address<-"https://s3.amazonaws.com/coursera-uploads/peer-review/70d30d43a587238f5578acfc4068e965/Final_Tidy_Results.txt"
+address<-sub("^https","http",address)
+data <- read.table(url(address), header = TRUE) 
+View(data)
+```
  
